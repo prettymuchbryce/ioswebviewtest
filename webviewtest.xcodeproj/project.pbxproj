@@ -20,8 +20,6 @@
 		02490A9719CA23C60002B446 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02490A9619CA23C60002B446 /* XCTest.framework */; };
 		02490A9819CA23C60002B446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02490A7419CA23C60002B446 /* Foundation.framework */; };
 		02490A9919CA23C60002B446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02490A7819CA23C60002B446 /* UIKit.framework */; };
-		02490AA119CA23C60002B446 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02490A9F19CA23C60002B446 /* InfoPlist.strings */; };
-		02490AA319CA23C60002B446 /* webviewtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02490AA219CA23C60002B446 /* webviewtestTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +50,6 @@
 		02490A8F19CA23C60002B446 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		02490A9519CA23C60002B446 /* webviewtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webviewtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02490A9619CA23C60002B446 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		02490A9E19CA23C60002B446 /* webviewtestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webviewtestTests-Info.plist"; sourceTree = "<group>"; };
-		02490AA019CA23C60002B446 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		02490AA219CA23C60002B446 /* webviewtestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webviewtestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				02490A7A19CA23C60002B446 /* webviewtest */,
-				02490A9C19CA23C60002B446 /* webviewtestTests */,
 				02490A7319CA23C60002B446 /* Frameworks */,
 				02490A7219CA23C60002B446 /* Products */,
 			);
@@ -133,24 +127,6 @@
 				02490A7D19CA23C60002B446 /* InfoPlist.strings */,
 				02490A8019CA23C60002B446 /* main.m */,
 				02490A8219CA23C60002B446 /* webviewtest-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		02490A9C19CA23C60002B446 /* webviewtestTests */ = {
-			isa = PBXGroup;
-			children = (
-				02490AA219CA23C60002B446 /* webviewtestTests.m */,
-				02490A9D19CA23C60002B446 /* Supporting Files */,
-			);
-			path = webviewtestTests;
-			sourceTree = "<group>";
-		};
-		02490A9D19CA23C60002B446 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				02490A9E19CA23C60002B446 /* webviewtestTests-Info.plist */,
-				02490A9F19CA23C60002B446 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,7 +218,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02490AA119CA23C60002B446 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02490AA319CA23C60002B446 /* webviewtestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +274,6 @@
 				02490A8A19CA23C60002B446 /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		02490A9F19CA23C60002B446 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02490AA019CA23C60002B446 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -470,6 +436,7 @@
 				02490AA819CA23C60002B446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02490AA919CA23C60002B446 /* Build configuration list for PBXNativeTarget "webviewtestTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +445,7 @@
 				02490AAB19CA23C60002B446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
